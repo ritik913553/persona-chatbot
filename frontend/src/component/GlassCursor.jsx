@@ -18,7 +18,7 @@ const GlassCursor = () => {
   useEffect(() => {
     const animation = () => {
       if (ref.current) {
-        ref.current.style.transform = `translate(${position.x - 32}px, ${position.y - 32}px)`;
+        ref.current.style.transform = `translate(${position.x - 72}px, ${position.y - 72}px)`;
         requestAnimationFrame(animation);
       }
     };
