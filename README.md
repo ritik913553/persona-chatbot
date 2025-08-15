@@ -8,8 +8,11 @@ Persona-AI is an interactive AI chatbot application with a sleek and animated fr
 ## Visuals Of Chatbot
 
 
-### chat interface
+### chat with Hitesh Sir
 <img width="1398" height="905" alt="Screenshot from 2025-08-15 10-02-13" src="https://github.com/user-attachments/assets/5ad2007f-5b22-481f-8c32-d596a815471e" />
+
+### chat with Piyush sir
+<img width="1192" height="627" alt="Screenshot from 2025-08-15 13-20-13" src="https://github.com/user-attachments/assets/66ec1bbd-88c8-4dbf-8770-8c7aebe53478" />
 
 ### home page interface
 <img width="1566" height="922" alt="Screenshot from 2025-08-15 10-02-25" src="https://github.com/user-attachments/assets/a58bf2b8-818d-4053-9f52-6fd25c5f8c7d" />
