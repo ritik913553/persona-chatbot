@@ -126,7 +126,7 @@ export default function ChatUI({ setIsChatOpen, persona }) {
             {/* Chat Messages */}
             <div className="flex flex-col xl:p-0 p-5 max-h-[80%] max-w-5xl mx-auto text-white mt-6 space-y-4">
                 <div
-                    className="scroll-class flex-1 bg-gray-300 h-auto max-h-[70%] rounded-xl overflow-y-auto px-4 py-6 space-y-4"
+                    className="scroll-class bg-[url(https://images.unsplash.com/photo-1554755229-ca4470e07232?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGV4dHVyZXxlbnwwfHwwfHx8MA%3D%3D)] bg-cover bg-bottom flex-1 bg-gray-300 h-auto max-h-[70%] rounded-xl overflow-y-auto px-4 py-6 space-y-4 shadow-xl shadow-gray-900/50"
                     style={{ minHeight: "150px" }}
                 >
                     {messages.map((msg, index) => (
@@ -150,7 +150,7 @@ export default function ChatUI({ setIsChatOpen, persona }) {
                                     <img
                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAACUCAMAAAAeaLPCAAAAQlBMVEX6+vqPj4////+Li4vx8fGioqKIiIiAgICnp6fs7Oz39/eDg4P09PTHx8fLy8vb29u0tLTT09Pl5eWYmJitra2+vr74UUVkAAAD+0lEQVR4nO2c3XKkIBBGtRsQ/ENE3/9VF8dJMpuNoxCFdotzkVQlNyekwQa+sSgymUwmk8lkMplM5j8DHqS28Mc5MzWOehxH1RZ3+gsAWt0NE7e2LK3l09zp+ib+AOPMLQrE8gEKgZbP6gb6Tp3jh/cX7gdyJG8/8uq7+AeVVKnt3gFsFv8M+svwY9eSHX3QXGyrL4iJau2AKXfcnb3VJO2d+5uS+SydkqI99LvD/sSQswdz1B2R2tjDeFB9sbeKln1tD9T7B4KTkofhaNGs9jMhe9A+6guElvuWexTNAsrUyp9A7+nuILPiMOktL4Y6tfUKaK/Z+mRMrf3Eb6l5Dn2X2nql9a94hyVRN2A2tx/vqEisljCFlDyRBxWEqLulnkaPEFQ1bugJyIMKlK8IzFgwTZh8Q2DGHt9BfZcn0CHAHCpPYDsYLC/uLE9i5G9d87debcZA+Yqlly/qwIdUQ8C9gMCatyTkfXffK0S6yrAZS6OfL1hY3RDoyxb8Dw+W44PU1ivHD4hf5XVq7RVQ/lMWJUut/QQ676FHAo3Niv/Qo2xTS3/if1hJZuAX/IZeTJTcgXk1OILIGv/E69iMyMP1C48Vh8L+7xv1fLDskcj58F+0xzazoqNV8E/q7kDdVya15gauOd4pHSGozdUvlkft27yNpJu3cfZFb7f0EbkhnjMDNnPxw8wVyDsKxwXvAVBmKpvXuBaKphwMsbTEBgCtMoNtqqpxuK/Wmde3UP+kVlobo0dVL3PhbgDcNUycyWRIAUXLTqBNsI4C0/Mg+a+RQ6cjd2sARrr+Fk/ANUIy6u0UtMOR3PBRRDnHqx1ge1Fzb/14kbNaBt6hbdPEOvGG7nT3eFfKgTchO2AU9+D7+vc0fYyhB3uFe1nGiG35JOW9wAh3JWAuko+R7IbuKvkIz9nr5CMsljcf+RO7mujyAUl/OvK3Xm28P9xylBjngeoq+Sj3yhe5R0k+QUhCZR8cosj3F7TzZVnF2cj63XYfpYmhvvTEF9QNyjg7qUvqJlLVFEV7/nYEebTjg9Ds8zYi3rkTC8uBboNTvOTT+f1N1AO/4dShxzmiegGn9ggiciYaivPmLJaxT+hhPOucOMWbBECf86BFniLFAqM9oXQET/ORZGDy1y1aNSRL4MC8F216Dyb9rBQoGT5vsZzSJnCgMPzdm5C2ESjTB5+A9fKnaNO+OoW8GQDTU+PT4mMjBk0os8W6sjo2ebGpbE8nPb8AAG3PF7ftbOL6G2lIvgoPoNbzwLl9vPJOvF5yL3PaPq7qCb+E0P0DaqVNPw/DNMlHNEHKaRrmuTejKm6Q2VpzZS1TTDnct7a4Y9bshsqZTCaTyWQymUwms88fqNsyIPDaIpkAAAAASUVORK5CYII="
                                         alt=""
-                                        className="w-8 h-8 rounded-full object-cover border-2 border-orange-500"
+                                        className="w-9 h-9 rounded-full object-cover border-4 border-orange-500"
                                     />
                                 )}
                             </div>
@@ -173,7 +173,7 @@ export default function ChatUI({ setIsChatOpen, persona }) {
                                     />
                                 </div>
                                 {msg.timestamp && (
-                                    <span className="block text-xs text-gray-500 mt-1">
+                                    <span className="block text-xs text-gray-900 font-semibold mt-1">
                                         {msg.timestamp}
                                     </span>
                                 )}

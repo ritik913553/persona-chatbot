@@ -32,7 +32,7 @@ const Navbar = () => {
                             key={index}
                             className="relative border hover:scale-110 transform duration-75 ease-in-out border-white rounded-full cursor-pointer text-sm p-1.5 sm:p-2 h-8 w-8 sm:h-10 sm:w-10 flex items-center justify-center"
                         >
-                            <div className="absolute -z-10 h-full w-full border-t-4 rounded-full border-orange-500 animate-spin"></div>
+                            <div className="absolute -z-10 h-full w-full border-t-4 rounded-full border-orange-600 animate-spin"></div>
                             <a
                                 href={item.href}
                                 className="rounded-full text-sm bg-gray-200 p-1.5 sm:p-2"
