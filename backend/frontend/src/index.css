@@ -30,3 +30,31 @@
   background-repeat: no-repeat;
 }
 
+.ai-message pre {
+  @apply bg-gray-900 text-white p-3 rounded-lg overflow-x-auto relative mt-4;
+  padding-top: 2.5rem; /* extra space for the header bar */
+}
+
+/* Header bar container */
+.ai-message pre::before {
+  content: "";
+  @apply absolute top-0 left-0 w-full h-8 bg-gray-800 rounded-t-lg;
+}
+
+/* The 3 dots */
+.ai-message pre::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 14px;
+  height: 14px;
+  background-color: #f97316; /* Tailwind orange-500 */
+  border-radius: 50%;
+  box-shadow: 24px 0 0 #f97316, 48px 0 0 #f97316; /* 3 circles spaced apart */
+}
+
+
+.ai-message code {
+  @apply font-mono text-sm;
+}

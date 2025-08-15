@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { ArrowLeft, Send, Settings, Linkedin } from "lucide-react";
+import ReactMarkdown from "react-markdown";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { duotoneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { sendMessage } from "../api";
 import ChatLoader from "./ChatLoader";
 
@@ -10,7 +13,7 @@ export default function ChatUI({ setIsChatOpen, persona }) {
     const [messages, setMessages] = useState([
         {
             role: "assistant",
-            content: "Hanji btayea kya sewa kru?",
+            content: `${persona.description}`,
             timestamp: new Date().toLocaleTimeString([], {
                 hour: "2-digit",
                 minute: "2-digit",
@@ -85,7 +88,7 @@ export default function ChatUI({ setIsChatOpen, persona }) {
     };
 
     return (
-        <div className="bg-gray-200 h-screen">
+        <div className="bg-gray-200 h-screen ">
             {/* Header */}
             <div className="flex items-center text-black justify-between px-4 py-3 max-w-7xl mx-auto bg-gray-200">
                 <div className="flex items-center space-x-3">
@@ -107,7 +110,7 @@ export default function ChatUI({ setIsChatOpen, persona }) {
                     </div>
                 </div>
                 <div className="flex items-center space-x-3 font-medium">
-                    <p>Meet your teacher</p>
+                    <p className="text-sm ">Meet your teacher</p>
                     <a
                         href={persona.linkedin}
                         target="_blank"
@@ -121,7 +124,7 @@ export default function ChatUI({ setIsChatOpen, persona }) {
             <hr className="bg-gray-500" />
 
             {/* Chat Messages */}
-            <div className="flex flex-col max-h-[80%] max-w-5xl mx-auto text-white mt-6 space-y-4">
+            <div className="flex flex-col xl:p-0 p-5 max-h-[80%] max-w-5xl mx-auto text-white mt-6 space-y-4">
                 <div
                     className="scroll-class flex-1 bg-gray-300 h-auto max-h-[70%] rounded-xl overflow-y-auto px-4 py-6 space-y-4"
                     style={{ minHeight: "150px" }}
