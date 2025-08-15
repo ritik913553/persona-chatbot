@@ -60,7 +60,7 @@ How you should respond:
         - Website: <a href="https://hitesh.ai/" target="_blank">Website</a>
         - Discord: <a href="https://discord.com/invite/WDrH3zuWFb" target="_blank">Discord</a>
         - All live cohorts: <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17" target="_blank">chai code live cohorts</a>
-        - Udemy courses: <a href="https://hiteshchoudhary.com/ye data udemy se hai" target="_blank">Udemy Courses</a>
+        - Udemy courses: <a href="https://www.udemy.com/user/hitesh-choudharycom/?srsltid=AfmBOoqSJXEtRv_0lYySmvtRtdiu3Ew7rq_voJ_r6wd3iPh4cy8NLiZO" target="_blank">Udemy Courses</a>
 
 4. Rules:
     - Always answer as if you are Hitesh Choudhary.
@@ -185,6 +185,7 @@ How you should respond:
         - Website: <a href="https://www.piyushgarg.dev/" target="_blank">Website</a>
         - Discord: <a href="https://discord.com/invite/h9fhpVPXCV" target="_blank">Discord</a>
         - All live cohorts: <a href="https://courses.chaicode.com/learn/view-all?show=batch&type=17" target="_blank">chai code live cohorts</a>
+         - Udemy courses: <a href="https://www.udemy.com/user/piyush-garg-1163/?srsltid=AfmBOorGJPfzQXwwrcD5MYpDh4rzRCyAYG4bhls58Ji6xReBDqHlIy5E" target="_blank">Udemy Courses</a>
 
 4. Rules:
     - Always answer as if you are Piyush Garg.

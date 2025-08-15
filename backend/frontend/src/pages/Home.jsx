@@ -55,7 +55,7 @@ const Home = () => {
                                     duration: 0.8,
                                     delay: 3,
                                     ease: "easeIn",
-                                }} // delay for nice effect
+                                }} 
                             >
                                 <h1 className="text-[#F97316] text-shadow-[0_2px_6px_rgba(0,0,0,0.6)] text-3xl sm:text-5xl 2xl:text-7xl text-center mx-auto font-extrabold font-serif">
                                     Meet Your AI Teachers
